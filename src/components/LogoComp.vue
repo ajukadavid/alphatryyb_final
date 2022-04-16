@@ -1,9 +1,9 @@
 <template>
   <div class="flex justify-between p-8">
-    <h1 class="text-xl">Sounds</h1>
+    <h1 class="text-xl bg-black p-4 text-white">Sounds</h1>
     <div class="dropdown">
       <button class="dropbtn text-xl">Visuals</button>
-      <div class="dropdown-content">
+      <div class="dropdown-content text-sm">
         <a href="#">Music Videos</a>
         <a href="#">Life Na Times</a>
         <a href="#">Link 3</a>
@@ -38,7 +38,7 @@ export default {
   display: none;
   position: absolute;
   right: 0px;
-  background-color: #f1f1f1;
+  background-color: black;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -46,14 +46,14 @@ export default {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #ddd; color: black}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
