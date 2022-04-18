@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="w-full h-screen border-8 border-black" >
   Element
 </div>
 </template>
