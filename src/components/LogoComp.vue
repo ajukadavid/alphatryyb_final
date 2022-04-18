@@ -1,7 +1,9 @@
 <template>
   <div class="justify-center flex bg-black items-center h-screen">
     <div class="text-4xl">
-      <img src="../assets/Images/alphatryyb.jpg" class="w-20">
+      <router-link to="/artists">
+        <img src="../assets/Images/alphatryyb.jpg" class="w-20">
+      </router-link>
     </div>
   </div>
 </template>
