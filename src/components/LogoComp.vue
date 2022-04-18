@@ -1,13 +1,7 @@
 <template>
-  <div class="flex justify-between p-8">
-    <h1 class="text-xl bg-black p-4 text-white">Sounds</h1>
-    <div class="dropdown">
-      <button class="dropbtn text-xl">Visuals</button>
-      <div class="dropdown-content text-sm">
-        <a href="#">Music Videos</a>
-        <a href="#">Life Na Times</a>
-        <a href="#">Link 3</a>
-      </div>
+  <div class="justify-center flex bg-black items-center h-screen">
+    <div class="text-4xl">
+      <img src="../assets/Images/alphatryyb.jpg" class="w-20">
     </div>
   </div>
 </template>
