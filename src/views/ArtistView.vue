@@ -1,16 +1,31 @@
 <template>
 <div class="w-full h-screen border-8 border-black" >
-  <div class="max-w-sm w-64 absolute left-12 top-16 bg-white border border-black shadow-md dark:bg-black dark:border-black">
-    <a href="#">
-      <img class="rounded-t-lg" src="../assets/Images/kenneth.jpg" alt="kenneth" />
-    </a>
-    <div class="bg-black p-2">
+  <div class="flex">
+    <div class="max-w-sm m-10 bg-black border border-black shadow-md dark:bg-black dark:border-black">
       <a href="#">
-        <h5 class="text-lg font-bold tracking-tight text-gray-900 dark:text-white">CZUKUDI</h5>
+        <img class="" src="../assets/Images/kenneth.jpg" alt="" />
       </a>
+      <div class="p-5">
+        <a href="#">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Czukudi</h5>
+        </a>
+      </div>
+    </div>
+
+    <div class="max-w-sm m-10 bg-black border border-black shadow-md dark:bg-black dark:border-black">
+      <a href="#">
+        <img class="" src="../assets/Images/tuaitch.png" alt="" />
+      </a>
+      <div class="">
+        <a href="#">
+          <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">TuAitch</h5>
+        </a>
+      </div>
     </div>
   </div>
+
 </div>
+
 </template>
 
 <script>
