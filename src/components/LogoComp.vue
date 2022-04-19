@@ -2,7 +2,7 @@
   <div class="justify-center flex bg-black items-center h-screen">
     <div class="text-4xl">
       <router-link to="/artists">
-        <img src="../assets/Images/alphatryyb.jpg" class="w-20">
+        <img src="../assets/Images/alphatryyb.jpg" class="w-20 animate-pulse">
       </router-link>
     </div>
   </div>
