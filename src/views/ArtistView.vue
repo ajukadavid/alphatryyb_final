@@ -1,6 +1,6 @@
 <template>
-<div class="w-full h-screen border-8 border-black" >
-  <div class="flex">
+<div class="w-full h-full sm:h-screen border-8 border-black" >
+  <div class="sm:flex">
     <div class="max-w-sm m-10 bg-black border border-black shadow-md dark:bg-black dark:border-black">
       <a href="#">
         <img class="" src="../assets/Images/kenneth.jpg" alt="" />
