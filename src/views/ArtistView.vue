@@ -5,7 +5,7 @@
       <a href="#">
         <img class="" src="../assets/Images/kenneth.jpg" alt="" />
       </a>
-      <div class="p-5">
+      <div class="p-3.5">
         <a href="#">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Czukudi</h5>
         </a>
@@ -16,7 +16,7 @@
       <a href="#">
         <img class="" src="../assets/Images/tuaitch.png" alt="" />
       </a>
-      <div class="">
+      <div class="p-3.5">
         <a href="#">
           <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">TuAitch</h5>
         </a>
