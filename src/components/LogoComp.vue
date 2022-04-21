@@ -1,9 +1,8 @@
 <template>
   <div class="justify-center flex bg-black items-center h-screen">
-    <div class="text-4xl grid animate-bounce">
+    <div class="text-4xl grid">
       <router-link to="/artists">
         <img alt="alphatryyb logo" src="../assets/Images/alphatryyb.jpg" class="w-20 mx-20">
-        <h3 class="text-white prompt-text">Click to proceed</h3>
       </router-link>
     </div>
   </div>
